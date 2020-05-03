@@ -14,11 +14,11 @@ public class SampleTestCase {
 
     @Test
     public void testUserInfoResponse() {
-        String login = "olezhkalviv";
+        String login = "olezhlviv";
         Integer id = 25117767;
         String htmlUrl = "https://github.com/olezhkalviv";
         String type = "User";
-        String name = "Olezhka";
+        String name = "Olezh";
 
         User user = userController.getUserByUsername("olezhkalviv");
 
